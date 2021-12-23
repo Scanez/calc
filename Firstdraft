@@ -47,7 +47,11 @@
   {
   let x = document.getElementByID("textval").value
   let y = eval(x)
-  document.getElementByID("textval").value = ""
+  document.getElementByID("textval").value = y
+  }
+  function clr()
+  {
+  document.getElementById("textval").value = ""
   }
   </script>
   
